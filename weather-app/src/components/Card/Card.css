@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Card {
+  background-color: rgb(233, 227, 227);
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1vh;
+}
+
+.Card + .Card {
+  margin-left: 0.7em;
+}
+
+.temp {
+  display: flex;
+}
